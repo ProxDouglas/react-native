@@ -10,6 +10,14 @@ Devido ao fato de que o framework expo faz o build do projeto tanto para android
 
 
 
+### instalação de ambiente
+
+```
+npx create-expo-app AwesomeProject
+```
+
+
+
 ## Caso de erro 
 
 ```sql
@@ -54,3 +62,21 @@ npm install --save @expo/vector-icons
 ```
 
 [react-native-vector-icons directory (oblador.github.io)](https://oblador.github.io/react-native-vector-icons/)
+
+
+
+
+
+## Gerar versão Build
+
+[EAS Build - Expo Documentation](https://docs.expo.dev/build/introduction/)
+
+[Como gerar o APK e AAB do App com EXPO 2023 👌 - YouTube](https://www.youtube.com/watch?v=bIMk6iaPOBE)
+
+​	Para gerar o build e publicar na loja da apple store ou playStore é necessário instalar o cli dos serviços expo.
+
+```
+npm install -g eas-cli
+```
+
+​	Após ter instalado crie uma conta na plataforma expo caso não possua ou logue com o comando "eas login" e informe o usuário e senha da plataforma.
